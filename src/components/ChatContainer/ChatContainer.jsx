@@ -4,10 +4,10 @@ import "./ChatContainer.scss"
 
 const ChatContainer = () => {
   return (
-    <main className="chat-container">
+    <div className="chat-container">
         <ChatMessage />
         <ChatInput />
-    </main>
+    </div>
   );
 }
   

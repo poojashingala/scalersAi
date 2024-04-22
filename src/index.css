@@ -33,8 +33,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #000;
   color: #fff;
+  box-sizing: border-box;
 }
 
 code {
   font-family: MontserratLight;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: transparent; 
+	border: none;
+	margin-left: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #434343; 
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #434343; 
 }

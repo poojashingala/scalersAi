@@ -9,3 +9,12 @@
     border-color: #444444;
     border-radius: 0 30px 30px 0;
 }
+
+@media only screen and (max-width: 768px) {
+    .nav-container {
+        width: 100%;
+        margin: 20px;
+        border: 1px solid #444444; 
+        border-radius: 30px;
+    }
+}
