@@ -1,0 +1,17 @@
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #a2a2a2;
+    margin-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+    svg {
+        margin: 0 10px 0 0;
+    }
+    img {
+        height: 20px;
+        width: 20px;
+        margin-right: 6px;    
+    }
+}

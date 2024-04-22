@@ -1,0 +1,11 @@
+@import "../../assets/css/mixins.scss";
+
+.nav-container {
+    width: 20%;
+    margin: 20px 75px 20px 0;
+    border: 1px;
+    border-left: 0;
+    border-style: solid;
+    border-color: #444444;
+    border-radius: 0 30px 30px 0;
+}
